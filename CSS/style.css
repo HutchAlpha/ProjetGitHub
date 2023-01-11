@@ -23,10 +23,9 @@
 
 /*Slider*/
     .slidecontainer {
-        width: 100%; /* Width of the outside container */
+        width: 50%; /* Width of the outside container */
     }
     
-    /* The slider itself */
     .slider {
         -webkit-appearance: none;  /* Override default CSS styles */
         appearance: none;
@@ -39,12 +38,11 @@
         transition: opacity .2s;
     }
     
-    /* Mouse-over effects */
+
     .slider:hover {
         opacity: 1; /* Fully shown on mouse-over */
     }
     
-    /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
     .slider::-webkit-slider-thumb {
         -webkit-appearance: none; /* Override default look */
         appearance: none;
@@ -61,6 +59,55 @@
         cursor: pointer; /* Cursor on hover */
     }
 /*Fin Slider*/
+
+/*Formulaire*/
+body {
+    background: #EEEEEE;
+    font-family:Arial;
+    text-align: center;
+    }
+    
+    form {
+      background: #FFFFFF;
+      width: 350px;
+      text-align: center;
+      margin: 30px auto;
+      box-shadow: 4px 4px 5px #999999;
+      padding-bottom: 40px;
+      border-radius: 10px;
+    }
+    h1 {
+      height: 40px;
+      width: 350px;
+      font-size: 20px;
+      background-color:#E91E63;
+      color:white;
+      padding: 15px 0 0 0;
+      border-radius: 10px 10px 0 0;
+    }
+    
+    input {
+      margin: 20px 0px;
+      width: 300px;
+      border: none;
+      padding: 5px 0;
+      border-bottom: solid 1px #E91E63;
+      color: #E91E63;
+    }
+    
+    button {
+      border: none;
+      background-color: #E91E63;
+      color: white;
+      height: 40px;
+      width: 150px;
+      font-size: 15px;
+      box-shadow: 4px 4px 5px #999999;
+      border-radius: 10px;
+      
+    }
+/*Fin Formulaire*/
+
 
 /*Liste d'article*/
     .forecast {
